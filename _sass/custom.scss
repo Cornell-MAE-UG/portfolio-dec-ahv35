@@ -54,7 +54,7 @@ footer {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .project-item img {
@@ -140,7 +140,7 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
@@ -153,6 +153,8 @@ footer {
   transition: transform 0.3s ease;
   max-width: 250px; 
   max-height: 300px; 
+  display: flex;
+  flex-direction: column; /* Ensures text flows below the image */
 }
 
 .gallery-item img {
@@ -167,9 +169,13 @@ footer {
 }
 
 .gallery-item p {
-  margin: 13px 0;
+  margin: 5px 0;
   font-size: .9rem;
   color: $text-color;
+  white-space: normal; /* Allow text to wrap onto the next line */
+  overflow: visible; /* Ensure no text is hidden */
+  line-height: 1; /* Adjust spacing for better readability */
+  max-height: none; /* Remove height restriction, if any */
 }
 
 .gallery-item a {
