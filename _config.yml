@@ -8,17 +8,18 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Angela Voo
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to "portfolio-<your-github-username>" 
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : Angela Voo
+description              : Angela Voo - Projects and CV 
+repository               : "Cornell-MAE-UG/portfolio-dec-ahv35"
+url                      : "https://cornell-mae-ug.github.io"
+baseurl                  : "/portfolio-dec-ahv35" # Set this to "portfolio-<your-github-username>" 
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light # light/default, dark, or aqua
+color_scheme: aqua # light/default, dark, or aqua
 
 sass:
   style: compressed
